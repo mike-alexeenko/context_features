@@ -1,0 +1,13 @@
+name = Context
+description = 11 March; 3 contexts included
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = views
+features[context][] = context01
+features[context][] = context02
+features[context][] = context03
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+features_exclude[dependencies][context] = context
